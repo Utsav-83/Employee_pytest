@@ -1,5 +1,3 @@
-import pytest
-
 def employee_details(name, emp_id, department, salary):
     result = (
         f"Employee Name: {name}\n"
@@ -9,7 +7,7 @@ def employee_details(name, emp_id, department, salary):
     )
     return result
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Sample Input
     name = "Alice"
     emp_id = "E1001"
